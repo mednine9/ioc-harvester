@@ -1,0 +1,6 @@
+*.mv.db          ← never commit the actual database file
+*.mv.db.trace.db
+config.properties  ← never commit credentials
+target/
+.idea/
+*.class
